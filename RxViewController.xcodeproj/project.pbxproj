@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7A2A04AC248604D20057774A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A2A04AB248604D20057774A /* Info.plist */; };
 		7AA910C824850D9200D8AD73 /* RxViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AA910BE24850D9200D8AD73 /* RxViewController.framework */; };
 		7AA910DB24850FBB00D8AD73 /* NSViewController+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA910B724850D1300D8AD73 /* NSViewController+Rx.swift */; };
 		7AA910DC24850FBD00D8AD73 /* UIViewController+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA910B824850D1300D8AD73 /* UIViewController+Rx.swift */; };
@@ -211,7 +210,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A2A04AC248604D20057774A /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,12 +255,16 @@
 		7AA910B424850CED00D8AD73 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 			};
 			name = Debug;
 		};
 		7AA910B524850CED00D8AD73 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 			};
 			name = Release;
 		};
