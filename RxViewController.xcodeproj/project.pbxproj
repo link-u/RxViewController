@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A2A04AC248604D20057774A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A2A04AB248604D20057774A /* Info.plist */; };
 		7AA910C824850D9200D8AD73 /* RxViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AA910BE24850D9200D8AD73 /* RxViewController.framework */; };
 		7AA910DB24850FBB00D8AD73 /* NSViewController+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA910B724850D1300D8AD73 /* NSViewController+Rx.swift */; };
 		7AA910DC24850FBD00D8AD73 /* UIViewController+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA910B824850D1300D8AD73 /* UIViewController+Rx.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A2A04AB248604D20057774A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AA910B724850D1300D8AD73 /* NSViewController+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSViewController+Rx.swift"; sourceTree = "<group>"; };
 		7AA910B824850D1300D8AD73 /* UIViewController+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Rx.swift"; sourceTree = "<group>"; };
 		7AA910BE24850D9200D8AD73 /* RxViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,11 +62,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A2A04AA248604BC0057774A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A2A04AB248604D20057774A /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		7AA910AF24850CED00D8AD73 = {
 			isa = PBXGroup;
 			children = (
 				7AA910B624850D1300D8AD73 /* RxViewController */,
 				7AA910D624850DAF00D8AD73 /* RxViewControllerTests */,
+				7A2A04AA248604BC0057774A /* Supporting Files */,
 				7AA910BF24850D9200D8AD73 /* Products */,
 				7AA910DF24851AF900D8AD73 /* Frameworks */,
 			);
@@ -200,6 +211,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A2A04AC248604D20057774A /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +327,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Supporting Files/Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = "same-as-input";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -394,6 +408,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Supporting Files/Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = "same-as-input";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
